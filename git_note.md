@@ -1,4 +1,6 @@
-## 1.1 第一阶段操作
+[git笔记链接](https://gitee.com/hongjilin/hongs-study-notes/tree/master/%E7%BC%96%E7%A8%8B_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
+
+## 一、整体操作
 1. 进入要管理的目录
 2. git init 初始化，让git帮我们管理当前文件夹
 3. git status 检测当前目录下文件的状态
@@ -11,9 +13,10 @@
     * 生成版本
     * 查看版本记录
   -->   **git log**
-
+ --> **git reflog //所有版本号**
 <hr>
-### 1.2 具体语句
+
+## 二、具体命令
 #### 初始化
     git init
 
@@ -29,5 +32,11 @@
     git commit -m 'v1'
 
 #### 查看版本记录
-    git log
+    git log 
+    git reflog //所有版本号
+
+#### 回滚
+    git reset --hard 版本号
+
+<img src="11.png" height='500'>
 
