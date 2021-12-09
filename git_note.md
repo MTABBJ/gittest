@@ -44,9 +44,14 @@
 # 第二节 分支
 ## 一、
 ## 二、命令
-#### 目前所处在的分支
+#### 查看目前所处的分支
     git branch
 #### 创建分支dev
     git branch dev
 #### 切换分支dev（切换到了新环境）
     git checkout dev
+#### 合并分支（在master环境上操作）
+    git merge dev
+#### 删掉分支
+    git branch -d dev
+
