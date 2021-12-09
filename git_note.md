@@ -42,16 +42,23 @@
 <img src="11.png" height='500'>
 
 # 第二节 分支
-## 一、
-## 二、命令
+## 一、分支含义
+分支可以给使用者提供多个环境，意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线。
+
+## 二、紧急修复bug方案
+<img src='2.png'>
+
+## 三、命令总结
 #### 查看目前所处的分支
     git branch
-#### 创建分支dev
-    git branch dev
-#### 切换分支dev（切换到了新环境）
-    git checkout dev
-#### 合并分支（在master环境上操作）
-    git merge dev
+#### 创建分支
+    git branch 分支名称
+#### 切换分支（切换到了新环境）
+    git checkout 分支名称
+#### 合并分支（可能产生冲突）
+    git merge 分支名称
+    *注意：先切换分支再合并，要在master环境上操作
 #### 删掉分支
-    git branch -d dev
+    git branch -d 分支名称
 
+## 四、工作流
