@@ -1,5 +1,6 @@
 [git笔记链接](https://gitee.com/hongjilin/hongs-study-notes/tree/master/%E7%BC%96%E7%A8%8B_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
+# 第一节 操作
 ## 一、整体操作
 1. 进入要管理的目录
 2. git init 初始化，让git帮我们管理当前文件夹
@@ -40,3 +41,12 @@
 
 <img src="11.png" height='500'>
 
+# 第二节 分支
+## 一、
+## 二、命令
+#### 目前所处在的分支
+    git branch
+#### 创建分支dev
+    git branch dev
+#### 切换分支dev（切换到了新环境）
+    git checkout dev
