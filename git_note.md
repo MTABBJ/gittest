@@ -39,14 +39,14 @@
 #### 回滚
     git reset --hard 版本号
 
-<img src="11.png" height='500'>
+<img src="img\11.png" height='500'>
 
 # 第二节 分支
 ## 一、分支含义
 分支可以给使用者提供多个环境，意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线。
 
 ## 二、紧急修复bug方案
-<img src='2.png'>
+<img src='img\2.png'>
 
 ## 三、命令总结
 #### 查看目前所处的分支
@@ -80,3 +80,5 @@
 ```
 更新代码
  git pull origin dev
+
+
