@@ -72,13 +72,35 @@
 
 ```
 
+到公司新电脑上第一次获取代码
 ```
 1.克隆代码
     git clone 远程仓库地址（内部已实现git remote add origin 远程仓库地址）
 2.切换分支
     git checkout 分支
 ```
-更新代码
- git pull origin dev
-
+在公司进行开发
+```
+1.切换到dev分支进行开发
+    git checkout dev
+2.把master分支合并到dev[仅一次]
+    git merge master
+3.修改代码
+4.提交代码
+    git add .
+    git commit -m 'xxx'
+    git push origin dev
+```
+回到家中继续写代码 / 之后再在公司继续开发
+```
+1.切换到dev分支进行开发
+    git checkout dev
+2.拉代码
+    git pull origin dev
+3.继续开发
+4.提交代码
+    git add .
+    git commit -m 'xxx'
+    git push origin dev
+```
 
