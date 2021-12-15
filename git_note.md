@@ -61,4 +61,22 @@
 #### 删掉分支
     git branch -d 分支名称
 
-## 四、工作流
+## 四、github
+```
+1.给远程仓库起别名
+    git remote add origin 远程仓库地址
+2.向远程推送代码(-u 提交默认master分支)
+    git push -u origin 分支
+或者（手动提交dev分支）
+    git push origin dev
+
+```
+
+```
+1.克隆代码
+    git clone 远程仓库地址（内部已实现git remote add origin 远程仓库地址）
+2.切换分支
+    git checkout 分支
+```
+更新代码
+ git pull origin dev
