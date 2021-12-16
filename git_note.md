@@ -116,5 +116,16 @@
     git push origin dev
 ```
 
-# 第三节 （p16）
-## 一、
+# 第三节 忘记推送（p16）
+## 一、忘记推送后pull下来合并代码
+```
+    git pull origin dev
+↑等同于↓
+    git fetch origin dev
+    git merge origin/dev
+```
+
+# 第四节 rebase(变基)
+rebase使git记录简洁
+## 第一种
+ 
