@@ -104,3 +104,17 @@
     git push origin dev
 ```
 
+开发完毕，要上线
+```
+1.将dev分支合并到master，进行上线
+    git checkout master
+    git merge dev
+    git push origin master
+2.把dev分支也推送到远程
+    git checkout dev
+    git merge master
+    git push origin dev
+```
+
+# 第三节 （p16）
+## 一、
